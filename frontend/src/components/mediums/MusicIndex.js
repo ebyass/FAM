@@ -17,10 +17,9 @@ function MusicIndex() {
 
     const recentPost = max ? post[max] : null
 
-    setRecentPost(recentPost) //* sets post with index that has the greatest value to state -> it can be resued using recentPost
+    setRecentPost(recentPost) //* sets post with index that has the greatest value to state -> it can be reused using recentPost
 
-    const dateOfPosts = post ? post.map(post => ( //* Mapping over the 
-
+    const dateOfPosts = post ? post.map(post => ( 
       { ...post, date_posted: moment(post.date_posted).format('LL') } //* Change date into usable format - set these fromatted date posts to state
     )) : null
 
@@ -35,7 +34,6 @@ function MusicIndex() {
     const selectedMonth = e.target.value
     const postsToRender = dateOfPosts.filter(post =>
       post.date_posted.includes(selectedMonth)
-
     )
     return setFilteredPosts(postsToRender)
   }

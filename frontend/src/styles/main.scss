@@ -93,7 +93,7 @@ menu {
   }  
 }
 
-//! open the bruger menu on phone screens
+//! open the burger menu on phone screens
 @media screen and (max-width: 600px) {
   menu.active {
     min-width: 150px;
@@ -493,18 +493,21 @@ div {
 		a {
 				.home-image-film {
           flex: 1;
-          width: 900px;
+					// width: 900px;
+					min-width: 10em;
           margin-top: 30px;
           box-shadow: 17px 15px 32px -16px rgba(0,0,0,0.75);
 
 				}
 				.home-image-art {
           flex: 1.5;
-          box-shadow: 17px 15px 32px -16px rgba(0,0,0,0.75);
+					box-shadow: 17px 15px 32px -16px rgba(0,0,0,0.75);
+					min-width: 20em;
         }
         .home-image-music {
           flex: 1;
-          box-shadow: 17px 15px 32px -16px rgba(0,0,0,0.75);
+					box-shadow: 17px 15px 32px -16px rgba(0,0,0,0.75);
+					min-width: 10em;
         }
         .responsive-home-image {
           min-width: 200px;

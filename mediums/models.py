@@ -3,8 +3,6 @@ from django.db import models
 
 class Medium(models.Model):
 
-
-
     #! ONE TO MANY
     category = models.ForeignKey(
         'categories.Category',
@@ -43,8 +41,6 @@ class Medium(models.Model):
     #* gallery location for art exhibitions
     art_gallery_location = models.CharField(max_length=50, blank=True, null=True)
     
-
-
 
 
     def __str__(self):
