@@ -2,9 +2,9 @@
 	"python.pythonPath": "/Users/Yarden/.local/share/virtualenvs/sei-project-4-Zwr4zM0h/bin/python",
 	"workbench.colorTheme": "Default Dark+",
   "workbench.colorCustomizations": {
-    "statusBar.background": "#8bd6bb",
-    "titleBar.activeBackground": "#8bd6bb",
-    "titleBar.inactiveBackground": "#8bd6bb",
+    "statusBar.background": "#ffb76d",
+    "titleBar.activeBackground": "#ffb76d",
+    "titleBar.inactiveBackground": "#ffb76d",
   },
   "window.title": "Back-End FAM",
 }
